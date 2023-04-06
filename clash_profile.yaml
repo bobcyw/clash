@@ -149,6 +149,7 @@ rules:
     - 'DOMAIN,host.ssrbox.com,DIRECT'
     - 'DOMAIN-SUFFIX,tiktok.com,🚀 非港澳台节点'
     - 'DOMAIN-SUFFIX,imgix.net,🚀 非港澳台节点'
+    - 'DOMAIN-SUFFIX,auth0.com,🚀 非港澳台节点'
     - 'DOMAIN-SUFFIX,sectigo.com,🚀 节点选择'
     - 'DOMAIN-SUFFIX,stripe.network,🚀 节点选择'
     - 'DOMAIN-SUFFIX,jsdelivr.net,🚀 节点选择'
