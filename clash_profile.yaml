@@ -148,6 +148,7 @@ rules:
     - 'DOMAIN-SUFFIX,akamaized.net,🚀 非港澳台节点'
     - 'DOMAIN,host.ssrbox.com,DIRECT'
     - 'DOMAIN-SUFFIX,tiktok.com,🚀 非港澳台节点'
+    - 'DOMAIN-SUFFIX,ssrdog.com,🚀 节点选择'
     - 'DOMAIN-SUFFIX,hcaptcha.com,🚀 节点选择'
     - 'DOMAIN-SUFFIX,comodoca.com,🚀 节点选择'
     - 'DOMAIN-SUFFIX,document360.io,🚀 节点选择'
