@@ -5,6 +5,18 @@ allow-lan: false
 mode: rule
 log-level: silent
 external-controller: '0.0.0.0:9090'
+dns:
+    enable: true
+    ipv6: false
+    listen: 0.0.0.0:53
+    # enhanced-mode: fake-ip
+    enhanced-mode: redir-host
+    fake-ip-range: 198.18.0.1/16
+    nameserver:
+      - 114.114.114.114 # default value
+      - 8.8.8.8 # default value
+      - 192.168.60.18
+      - 192.168.60.19
 proxies:
     - { name: '🇭🇰 香港丨02', type: vmess, server: host.dog-host.cyou, port: '20242', uuid: b3458ce9-35dd-44be-8e9e-0fb4b89d227d, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: '🇭🇰 香港丨03', type: vmess, server: host.dog-host.cyou, port: '20242', uuid: b3458ce9-35dd-44be-8e9e-0fb4b89d227d, alterId: 0, cipher: auto, udp: true, network: ws }
